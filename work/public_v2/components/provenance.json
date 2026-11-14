@@ -1,0 +1,395 @@
+{
+  "source_archive": "ColorOS应用扩展(v1.1)(2).zip",
+  "source_sha256": "af8065e9239fde2cb4b652c1c61ae97be0a1fab8dfd7376bbeeafe69dbcba55e",
+  "original_module_id": "ColorOSCommonFeatureSupplements-AppExtension",
+  "original_version": "v1.1",
+  "apk_bytes_modified": false,
+  "components": [
+    {
+      "package": "com.coloros.accessibilityassistant",
+      "versionCode": 150564,
+      "versionName": "15.5.64",
+      "minSdk": 35,
+      "targetSdk": 35,
+      "sha256": "459f39987aeea9adf347edfdfdd2337372041ba2f7718f6450d8b437e6f88b6e",
+      "bytes": 25561270,
+      "source_entry": "system/product/app/com.coloros.accessibilityassistant/com.coloros.accessibilityassistant.apk",
+      "certificate_hashes": [
+        {
+          "block": "0x7109871a",
+          "sha256": "64aafaf1d5bc9155a9e417a849e4f8eda1d0d1341667c28ed7c443c76f820b9a"
+        },
+        {
+          "block": "0xf05368c0",
+          "sha256": "64aafaf1d5bc9155a9e417a849e4f8eda1d0d1341667c28ed7c443c76f820b9a"
+        }
+      ],
+      "extractNativeLibs": true,
+      "native_libraries": [
+        {
+          "source_entry": "lib/arm64-v8a/libSmartCrop.so",
+          "bytes": 1338904,
+          "sha256": "f29d819bcf63e6020c0086a56b05ba394b3ce9d1e17a25fbd4cc1d376e5cb507",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": true,
+          "module_path": "system/product/app/com.coloros.accessibilityassistant/lib/arm64/libSmartCrop.so"
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libaiunit_sdk_core.so",
+          "bytes": 14024,
+          "sha256": "ac495017c12d62abc0919db5057cc249e3a455ec6a8d50b64a9d42a00a4128bf",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": true,
+          "module_path": "system/product/app/com.coloros.accessibilityassistant/lib/arm64/libaiunit_sdk_core.so"
+        }
+      ]
+    },
+    {
+      "package": "com.coloros.colordirectservice",
+      "versionCode": 150624,
+      "versionName": "15.6.24",
+      "minSdk": 30,
+      "targetSdk": 35,
+      "sha256": "239d4f042befee81ba296a4f138aed80636f7f362058e43883e1717f681c6f57",
+      "bytes": 31162349,
+      "source_entry": "system/product/app/com.coloros.colordirectservice/com.coloros.colordirectservice.apk",
+      "certificate_hashes": [
+        {
+          "block": "0xf05368c0",
+          "sha256": "64aafaf1d5bc9155a9e417a849e4f8eda1d0d1341667c28ed7c443c76f820b9a"
+        }
+      ],
+      "extractNativeLibs": true,
+      "native_libraries": [
+        {
+          "source_entry": "lib/arm64-v8a/libSlpBase.so",
+          "bytes": 525560,
+          "sha256": "c3e0cb902f1c36819b3b4ef027dbea154b333751dfd6031c709f8060a66b1943",
+          "zip_method": 8,
+          "apk_offset_mod4096": 4051,
+          "external_copy": true,
+          "module_path": "system/product/app/com.coloros.colordirectservice/lib/arm64/libSlpBase.so"
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libSlpCws.so",
+          "bytes": 10168,
+          "sha256": "1d92cae26333cd34c33d0bc89420b77ceb79473ddcf86815ecca79ac5e87441c",
+          "zip_method": 8,
+          "apk_offset_mod4096": 3879,
+          "external_copy": true,
+          "module_path": "system/product/app/com.coloros.colordirectservice/lib/arm64/libSlpCws.so"
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libSlpParticiple.so",
+          "bytes": 30720,
+          "sha256": "f9889434f4b17ef4c2c645fc6b931e64ac68ba69225b486f42886a6211dcd919",
+          "zip_method": 8,
+          "apk_offset_mod4096": 2819,
+          "external_copy": true,
+          "module_path": "system/product/app/com.coloros.colordirectservice/lib/arm64/libSlpParticiple.so"
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libaiunit_sdk_core.so",
+          "bytes": 14024,
+          "sha256": "8babc2616cb819820d906011e376d395cce9822ffd553df6afeb883f89e31688",
+          "zip_method": 8,
+          "apk_offset_mod4096": 1587,
+          "external_copy": true,
+          "module_path": "system/product/app/com.coloros.colordirectservice/lib/arm64/libaiunit_sdk_core.so"
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libbase.so",
+          "bytes": 1722912,
+          "sha256": "270abca2e7ecef7b1fdefcfe230147234aa0fbdcbf687ffe99d434a861e6c0f0",
+          "zip_method": 8,
+          "apk_offset_mod4096": 2503,
+          "external_copy": true,
+          "module_path": "system/product/app/com.coloros.colordirectservice/lib/arm64/libbase.so"
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libcws.so",
+          "bytes": 3074904,
+          "sha256": "c3b232809b55b6b9888c2ddc20cebaa0a285307d379c7ec8db1360cc7b3c51f8",
+          "zip_method": 8,
+          "apk_offset_mod4096": 3315,
+          "external_copy": true,
+          "module_path": "system/product/app/com.coloros.colordirectservice/lib/arm64/libcws.so"
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libimage-crop.so",
+          "bytes": 3656072,
+          "sha256": "cc05437da25c6d30dac320d859287616f224f4117e4c189dd5179e7b4f69dadc",
+          "zip_method": 8,
+          "apk_offset_mod4096": 718,
+          "external_copy": true,
+          "module_path": "system/product/app/com.coloros.colordirectservice/lib/arm64/libimage-crop.so"
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libnaiveEngine.so",
+          "bytes": 1029280,
+          "sha256": "4c56da532ee287f64e9ab45b912034935ba1b1cbc3135859f12c7b9c55919358",
+          "zip_method": 8,
+          "apk_offset_mod4096": 4078,
+          "external_copy": true,
+          "module_path": "system/product/app/com.coloros.colordirectservice/lib/arm64/libnaiveEngine.so"
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libslpAuth.so",
+          "bytes": 428312,
+          "sha256": "86bd5265b0914ef9e73d17f00171cbb5a21e438e915ad0e9a0432859540023a0",
+          "zip_method": 8,
+          "apk_offset_mod4096": 3547,
+          "external_copy": true,
+          "module_path": "system/product/app/com.coloros.colordirectservice/lib/arm64/libslpAuth.so"
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libsmart_read_engine.so",
+          "bytes": 4888872,
+          "sha256": "e01648933dd4c07a9cb4c19253727c23b9ea7050318b224ccabd59c813adcf0c",
+          "zip_method": 8,
+          "apk_offset_mod4096": 469,
+          "external_copy": true,
+          "module_path": "system/product/app/com.coloros.colordirectservice/lib/arm64/libsmart_read_engine.so"
+        }
+      ]
+    },
+    {
+      "package": "com.coloros.directui",
+      "versionCode": 150304,
+      "versionName": "15.3.4",
+      "minSdk": 29,
+      "targetSdk": 36,
+      "sha256": "fcf858b778235fd641da5d0cd559df13676b753642e82626d5c2d8ee5067ad3d",
+      "bytes": 21749078,
+      "source_entry": "system/product/app/com.coloros.directui/com.coloros.directui.apk",
+      "certificate_hashes": [
+        {
+          "block": "0xf05368c0",
+          "sha256": "64aafaf1d5bc9155a9e417a849e4f8eda1d0d1341667c28ed7c443c76f820b9a"
+        }
+      ],
+      "extractNativeLibs": false,
+      "native_libraries": [
+        {
+          "source_entry": "lib/arm64-v8a/libACRCloudUniversalEngine.so",
+          "bytes": 316416,
+          "sha256": "c72a3015b0a3d89dec6cb0c60031d10e807a781297dfca36ec4c36ed7ef4b588",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libaiunit_sdk_core.so",
+          "bytes": 9928,
+          "sha256": "5c27c44132e05ace9f7a3f8f66ba41916e8b40a272633ccf2103bcb8a28301da",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libglide-webp.so",
+          "bytes": 448840,
+          "sha256": "bd0c593638bf30b875796817c848582a95aa9a99d4d59e24a3ab6485198ab451",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libsenz.so",
+          "bytes": 345872,
+          "sha256": "a0283f6fa9531db3ecac5917115bdb2b0af7f313d25fc8c0c2422fd1273b6593",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libteddycom-jni.so",
+          "bytes": 25760,
+          "sha256": "ad320e1aee9edb7dc98ad798f73468c1777a0516c7a59b01a2070f366180bb04",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        }
+      ]
+    },
+    {
+      "package": "com.coloros.sceneservice",
+      "versionCode": 15010022,
+      "versionName": "15.10.22",
+      "minSdk": 26,
+      "targetSdk": 34,
+      "sha256": "3687fbadd8971a9c71bc42bc99c585fa9f02fceef414edb70c898544222ffffb",
+      "bytes": 45048777,
+      "source_entry": "system/product/app/com.coloros.sceneservice/com.coloros.sceneservice.apk",
+      "certificate_hashes": [
+        {
+          "block": "0xf05368c0",
+          "sha256": "64aafaf1d5bc9155a9e417a849e4f8eda1d0d1341667c28ed7c443c76f820b9a"
+        }
+      ],
+      "extractNativeLibs": false,
+      "native_libraries": [
+        {
+          "source_entry": "lib/arm64-v8a/libDXCaptcha-v1.7.9-oppo.ad75fb75.so",
+          "bytes": 213420,
+          "sha256": "73771a3a77dafcae2508c16203062c3f11623f5d4b9ae2b080829d90bc346d7b",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libDXRisk-v6.1.7.5r-oppo.dda1a1a5.so",
+          "bytes": 205228,
+          "sha256": "8d0b800376e3ddd8493c60c0a86b6ae961c347ce4ff65568ba567a39c2ad9771",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libDXRiskComm-v6.1.7.5r-oppo.dda1a1a5.so",
+          "bytes": 1053276,
+          "sha256": "b0172cd6ecf8b5dd3ebd83ad212b5ce6d0c89f255351c12e0d15dc119ed0542d",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libSlpBase.so",
+          "bytes": 366976,
+          "sha256": "43192b3a63d0cad0366984040b3bd34f13800619974707a86e5a401bae2751d2",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libSlpSmu.so",
+          "bytes": 14256,
+          "sha256": "3f2449da92bb75b82d2eb0db809f9bc696f8d3ec59cbcb46146a0bad4b2a749a",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libaiunit_sdk_core.so",
+          "bytes": 9928,
+          "sha256": "5c27c44132e05ace9f7a3f8f66ba41916e8b40a272633ccf2103bcb8a28301da",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libdatasecuritykit.so",
+          "bytes": 14440,
+          "sha256": "16a5b30ee4fc8c4075e58b9588ee86fc5a337c66cd1143c9fcb77ef0d5b16233",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libmmkv.so",
+          "bytes": 552264,
+          "sha256": "d879055277999eb8af8d7ac87a51c8691485f1b5235d357150988a87bd3f03f4",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libonnxruntime.so",
+          "bytes": 3407816,
+          "sha256": "c00e0852152f931dc802570286d5e84f9dce876e996e5edc7108119b953d4bb2",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libopluslog.so",
+          "bytes": 63408,
+          "sha256": "7bcb62a282f21a41ad9638c07d26bfdac1dbec52c37384796ce3024594a15149",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libsmu.so",
+          "bytes": 4349240,
+          "sha256": "9384e9276fb6a440d66f06277a655103d9c4e271ab8675e8b2c5380f7cacd4a0",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libted_regex.so",
+          "bytes": 1075736,
+          "sha256": "aa5172d05a2eb526c4fa7906377c8b99a09998b909e345e40850ab28754b0dcc",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libteddycom-jni.so",
+          "bytes": 25376,
+          "sha256": "2b53d257dbb9bcf2bebd5afc182af74ad4cb0d7b1059e18a854dbfaa0d8c56ba",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libumejni.so",
+          "bytes": 88928,
+          "sha256": "fb7bd097b561bb758809e6b01eec710606c794178a689c80ab5ffe5dc1066358",
+          "zip_method": 0,
+          "apk_offset_mod4096": 0,
+          "external_copy": false
+        }
+      ]
+    },
+    {
+      "package": "com.oplus.metis",
+      "versionCode": 15012273,
+      "versionName": "15.12.273",
+      "minSdk": 33,
+      "targetSdk": 35,
+      "sha256": "b652b3822ac7771e1dde131c1249497f52cd04f99c7b7be285008e3bd1d42c8c",
+      "bytes": 19004460,
+      "source_entry": "system/product/app/com.oplus.metis/com.oplus.metis.apk",
+      "certificate_hashes": [
+        {
+          "block": "0x7109871a",
+          "sha256": "b0a9bbfc05eee5e7d0a2c97c030586e15bb3301152078f54473bb82df6d8c818"
+        }
+      ],
+      "extractNativeLibs": true,
+      "native_libraries": [
+        {
+          "source_entry": "lib/arm64-v8a/libaiunit_sdk_core.so",
+          "bytes": 9856,
+          "sha256": "460aedba07b6117cfae486a9972b52396fa9f33c7aa23e8f55aa4440b94da2b5",
+          "zip_method": 8,
+          "apk_offset_mod4096": 2461,
+          "external_copy": true,
+          "module_path": "system/product/app/com.oplus.metis/lib/arm64/libaiunit_sdk_core.so"
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libdatasecuritykit.so",
+          "bytes": 14440,
+          "sha256": "16a5b30ee4fc8c4075e58b9588ee86fc5a337c66cd1143c9fcb77ef0d5b16233",
+          "zip_method": 8,
+          "apk_offset_mod4096": 2010,
+          "external_copy": true,
+          "module_path": "system/product/app/com.oplus.metis/lib/arm64/libdatasecuritykit.so"
+        },
+        {
+          "source_entry": "lib/arm64-v8a/libheytaplog.so",
+          "bytes": 63408,
+          "sha256": "f458a98a9668f9ba314ee36d3ce47ec6868895de9e9add8e78134da9da404429",
+          "zip_method": 8,
+          "apk_offset_mod4096": 1426,
+          "external_copy": true,
+          "module_path": "system/product/app/com.oplus.metis/lib/arm64/libheytaplog.so"
+        }
+      ]
+    }
+  ]
+}

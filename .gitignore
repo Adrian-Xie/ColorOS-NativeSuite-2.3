@@ -1,16 +1,45 @@
-# Build outputs and local files — do not commit
-*.apk
-*.zip
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
 *.p12
-*.keystore
+*.pfx
 *.jks
-work/
+*.keystore
+*.pem
+*.key
+*credentials*
+*token*
+# Device data and reports
+*.log
+*.db
+*.db-*
+*.sqlite*
+*.ab
+*.xml.bak
+adb_readonly.py
+device-exports/
+screenshots/
+# Build outputs and external binary dependencies
 outputs/
-build-*/
 __pycache__/
 *.pyc
-build-report.json
-hook-setup.log
-hook-setup.txt
-status.txt
-prepare-log.txt
+*.apk
+*.dex
+*.class
+*.jar
+*.zip
+*.so
+*.exe
+*.dll
+work/v2_research/
+work/recents_hook_build/
+work/public_v2/build-*/
+work/suite_research/scope-helper/
+work/suite_research/theme-helper/
+work/suite_research/donor-sparse/
+work/oem_theme_payload/
+work/public_v2/components/payload/
+work/public_v2/themes/payload/assets/
+work/coloros_native_suite/payload/
+work/coloros_native_suite/dependencies/

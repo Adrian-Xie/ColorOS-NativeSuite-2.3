@@ -1,0 +1,6 @@
+id=plt120_selective_features
+name=ColorOS 精简功能补全（自适应公开测试）
+version=1.1-public-test
+versionCode=11010
+author=Local feature customization
+description=读取本机XML，仅调整流体云、堆叠、桌面卡片、静态灵感主题和小布轻量入口；不限制机型/固件号，不开启全局模糊。UI与云端能力需分别验收。

@@ -1,0 +1,4 @@
+Independent mounting adapts the tmpfs/lowerdir mechanism from backslashxx/mountify standalone-script, read 2026-11-10.
+https://github.com/backslashxx/mountify/tree/standalone-script
+Upstream global_mount.sh SHA256=fdd8b96ac538442cded8b0fc102c19f1db2d731053ce4f2d2949e27b616bf2fc
+Changes: selected payload only, fixed module scope, checked errors and hashes, no global module mounting.

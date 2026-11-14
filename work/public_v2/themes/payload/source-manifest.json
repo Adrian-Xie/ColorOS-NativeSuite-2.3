@@ -1,0 +1,593 @@
+{
+  "project": 77173148,
+  "ref": "sys_mssi_64_64only_cn_armv82-user-16-BP2A.250605.015-1763482170296-release-keys",
+  "commit": "38076cbb63f3b0234e27114bf8352d16801612e6",
+  "repository": "https://gitlab.com/rama-firmware-dumps/oneplus/CPH2719",
+  "remote_root": "my_product/decouping_wallpaper/inspiration_theme_resource/inspiration_theme_templates",
+  "groups": [
+    "sleek",
+    "light_and_shadow",
+    "composition",
+    "rhythm",
+    "healing",
+    "aerial_view"
+  ],
+  "files": [
+    {
+      "path": "aerial_view/aerial_view_preview_1.webp",
+      "bytes": 30408,
+      "sha256": "bfd20af958b326161f80a125ecebd6a1341148daae733dd062d439d25d060718",
+      "git_blob": "d7d1e303f34a4750e1b6166418d3666bdca62c6d"
+    },
+    {
+      "path": "aerial_view/aerial_view_preview_2.webp",
+      "bytes": 9008,
+      "sha256": "01a0ce3c4a51ed9baa66b97b9a66844ed852d58e979ed992250d5afa6fb76d4b",
+      "git_blob": "ac117a01d46acc1e95aed7803723f7aebd40763a"
+    },
+    {
+      "path": "aerial_view/aerial_view_preview_3.webp",
+      "bytes": 121686,
+      "sha256": "8c777896a0add02da154c79da8ed7fa8250b3d4d4b31708caef69049fb78b12e",
+      "git_blob": "25902e1af5e9fe91cf1a24833dd59365d845d44f"
+    },
+    {
+      "path": "aerial_view/aerial_view_preview_4.webp",
+      "bytes": 14844,
+      "sha256": "ec6fc7ee90676ec375fd0a3192ddcad4ef8e3f2674577ec69abec4290f015bf0",
+      "git_blob": "254058c7d267565cdd7e73e45abbed350a9ad451"
+    },
+    {
+      "path": "aerial_view/aerial_view_preview_eng_1.webp",
+      "bytes": 30408,
+      "sha256": "f65082081960c9053a6d14767f9cb7984e0bf188eddfc2b7e40999a164e62a2c",
+      "git_blob": "9443b5c3e3ee3baecf02da651d00e133267c186d"
+    },
+    {
+      "path": "aerial_view/aerial_view_preview_eng_2.webp",
+      "bytes": 8874,
+      "sha256": "e78dd8c463793cf1a8070e656c6d996f5a46e0c996d7ca296faae3272fb1291e",
+      "git_blob": "e1bd20e54199c7e8ffece4c3a3c08d5d8d0142cd"
+    },
+    {
+      "path": "aerial_view/aerial_view_preview_eng_3.webp",
+      "bytes": 121488,
+      "sha256": "6963f11ce9189b6127f5e51da77dfcee6177646b3f40d4582a47596bdb22d347",
+      "git_blob": "a3c0a755c59e46101c2f8a4f41c6a70267dc7122"
+    },
+    {
+      "path": "aerial_view/aerial_view_preview_eng_4.webp",
+      "bytes": 14584,
+      "sha256": "310bbdab89483697b25ff291478ae107a005fb5bef94e70252f9fee106832f87",
+      "git_blob": "239bd79aaf8236dc3fcffc3407df5b1836100fed"
+    },
+    {
+      "path": "aerial_view/aerial_view_preview_traditional_1.webp",
+      "bytes": 30438,
+      "sha256": "4154c30ce74aa388cc83bb52ef6c4b6136ff1e31a80de74d69352048aca792a1",
+      "git_blob": "fe1c5579d540a494e8ccafdbe18086c13efb50be"
+    },
+    {
+      "path": "aerial_view/aerial_view_preview_traditional_2.webp",
+      "bytes": 8976,
+      "sha256": "ec36f88d70fd8c32d8e25c28ad541a8e5a492fc0d10f9978d0462068ec9a7df1",
+      "git_blob": "6695df4b8c3a9675317860c8af0da8532e49c60a"
+    },
+    {
+      "path": "aerial_view/aerial_view_preview_traditional_3.webp",
+      "bytes": 121700,
+      "sha256": "d9a7ee0dc30b44606a08f990177a45222a758c0ddbd446543635a6e0dbf4bd54",
+      "git_blob": "8e4455711f4ac362ead8723d3059a511ab1ca642"
+    },
+    {
+      "path": "aerial_view/aerial_view_preview_traditional_4.webp",
+      "bytes": 14784,
+      "sha256": "c514f8e63984d77e0ac973fda43e5008e0331893eaef611ea6517b5969534913",
+      "git_blob": "cc3448884381a266c6442d7fec557c5dd88f2db1"
+    },
+    {
+      "path": "aerial_view/aerial_view_wallpaper_1.webp",
+      "bytes": 2257026,
+      "sha256": "0bff0fb101113fc77024efec49b1f50da8f783f832dabfc70892327a520de426",
+      "git_blob": "4a1ce949c4328ec097783aa7e8f1bc770444becf"
+    },
+    {
+      "path": "aerial_view/aerial_view_wallpaper_2.webp",
+      "bytes": 1224348,
+      "sha256": "bbbdc369f77b2c7c32523125c365aab383460b4fa281d5cff92790aefd595913",
+      "git_blob": "e9d53ec3207b6793820f4edc9f7055fb17172b5c"
+    },
+    {
+      "path": "aerial_view/aerial_view_wallpaper_3.webp",
+      "bytes": 3090884,
+      "sha256": "09cf70191eda5da01bc5a357e8f4fbd6e788bb78a1274cc1dc679271ab7d33b6",
+      "git_blob": "a89f8fcf9117ecec3d65616b8655824c827cff22"
+    },
+    {
+      "path": "aerial_view/aerial_view_wallpaper_4.webp",
+      "bytes": 1482768,
+      "sha256": "0934c19ea9f37c2318a94724fa5331ddc2b39dfc5b3e4de291509049f892cd83",
+      "git_blob": "57e878ac69eca417b43a7d184bbd39b629a878ce"
+    },
+    {
+      "path": "composition/composition_preview_1.webp",
+      "bytes": 7316,
+      "sha256": "89d00b45231b2e3ca2189e2892b4aa3113b627843716ea343f4db3c809423759",
+      "git_blob": "cf619099ef85f08c6cbe6e98e3f49bc65b5e07f2"
+    },
+    {
+      "path": "composition/composition_preview_2.webp",
+      "bytes": 9776,
+      "sha256": "5143e519c32ff7443b49b01815c43561395b866a8509d7feb597a471bcf674fe",
+      "git_blob": "1f2ffb0a0d115c7533f33e856521acc371494265"
+    },
+    {
+      "path": "composition/composition_preview_3.webp",
+      "bytes": 10236,
+      "sha256": "022fc9b48ce5a9fdde276e6919bd5a01685acb010f7a879fb1c18c167675541b",
+      "git_blob": "2f6689aef1fa032adb978c957f52b66ecdd1310b"
+    },
+    {
+      "path": "composition/composition_preview_4.webp",
+      "bytes": 7626,
+      "sha256": "397964897dfea688605df0ae62863a65c02b465072ea22ae2b694a98be2485f4",
+      "git_blob": "05b0860721847731fdaa6d5427ed533c00e9973b"
+    },
+    {
+      "path": "composition/composition_preview_eng_1.webp",
+      "bytes": 7086,
+      "sha256": "d6c08d7d22bdc6ddafceebf422f7d53c9cd6f220f5a62b4491b9b16ec0be6ffa",
+      "git_blob": "dc9920c271cb3d47a316d1e8661b8313e418c655"
+    },
+    {
+      "path": "composition/composition_preview_eng_2.webp",
+      "bytes": 9594,
+      "sha256": "f091416d8b6f444b5ab41f4aeefa9f0d2ce48f3fb88bb6e3d6c89202c0f6cca5",
+      "git_blob": "89ae92db40cc82751f87eec9850faf6b3bfe8b50"
+    },
+    {
+      "path": "composition/composition_preview_eng_3.webp",
+      "bytes": 10076,
+      "sha256": "dffe6d36acd3e530329781275fc22588be9e68d53ef78530b63a4830b23f4252",
+      "git_blob": "bd61d2faf5d050c723312f1631b1590e766e2497"
+    },
+    {
+      "path": "composition/composition_preview_eng_4.webp",
+      "bytes": 7500,
+      "sha256": "7f87282009233d88291730886e0ef66fe6598c03567ee923da4bbe8a712dbc1e",
+      "git_blob": "5ac7bd7faf86d8bb56643d919afc7e7b3dd8fbd4"
+    },
+    {
+      "path": "composition/composition_preview_traditional_1.webp",
+      "bytes": 7204,
+      "sha256": "c11c9322beec64236cd06f2745f5e8b767b99f7f48498643897b959774bebdba",
+      "git_blob": "a79fa0d0c244861d2c7f6d214a0c4e787c758023"
+    },
+    {
+      "path": "composition/composition_preview_traditional_2.webp",
+      "bytes": 9790,
+      "sha256": "0a9968216dd43ff7dd6e7654a131f6d97ec903ec0ff5f22bdde7a5e42b4d5c2c",
+      "git_blob": "b4c72d5cc6d3aaffa641feda81011faa92e8f6a9"
+    },
+    {
+      "path": "composition/composition_preview_traditional_3.webp",
+      "bytes": 10248,
+      "sha256": "17b016e286293a571f70a1e459ed55d43d17de1530374508b4b46f303216c1d3",
+      "git_blob": "877fe59745a091b76ffad70e473454429d160a63"
+    },
+    {
+      "path": "composition/composition_preview_traditional_4.webp",
+      "bytes": 7726,
+      "sha256": "74fb61dd125ee273b538a489b32cac1d566e10e3d757dd0e096c9e1a9dbe1a99",
+      "git_blob": "ea9317779ad960d2336a9efe56bbfd2cd016603f"
+    },
+    {
+      "path": "composition/composition_wallpaper_1.webp",
+      "bytes": 1310778,
+      "sha256": "b64027c7be9986e01bbb5ab2c3a04e9cb4d27bd91ebeccb0a77082aa9cd21210",
+      "git_blob": "ebcf336d21f334521f44e931767ac32c0ad10d3c"
+    },
+    {
+      "path": "composition/composition_wallpaper_2.webp",
+      "bytes": 1096584,
+      "sha256": "4cf24f1adf3a007b28b06f8322e640b0e5c31b4f20da20ea601f6a41f37dbbf6",
+      "git_blob": "f4459fe290acfd55319108e79f799a72bd4d35b1"
+    },
+    {
+      "path": "composition/composition_wallpaper_3.webp",
+      "bytes": 1489856,
+      "sha256": "5cad3c2f5fb98234b5ac3a4c4941304304e881dfdf6ebe8c13c7c15d53a28283",
+      "git_blob": "6a2a79f57253a7c990f8a4c2176f179987bd9602"
+    },
+    {
+      "path": "composition/composition_wallpaper_4.webp",
+      "bytes": 1490814,
+      "sha256": "7412e2030f68c3d5b4ece325ea1d173f0b92b75e2fc845c364ffd42b4551d83d",
+      "git_blob": "43d69729e74f255408f7cc6e92b6a1066ac2e3d5"
+    },
+    {
+      "path": "healing/healing_preview_1.webp",
+      "bytes": 17078,
+      "sha256": "9a1a068dae3ea18fd83efe9b41acc560b1206cf9685bef8d0b1b565051a230f7",
+      "git_blob": "f21cb44f4c94b03aafb7efd7b81b904838520634"
+    },
+    {
+      "path": "healing/healing_preview_2.webp",
+      "bytes": 12026,
+      "sha256": "e52dc5d7849d9f70e40b9ac2cee31107d051dc0fe6af9bfdc4c8fc9ec6f71222",
+      "git_blob": "4210a100532dd9daa47f6220fbdd5f3334a7ffe2"
+    },
+    {
+      "path": "healing/healing_preview_3.webp",
+      "bytes": 14818,
+      "sha256": "ddedbc33fe391ef1798ad7a7ed83ad5515ad21da0b29930f79cbcf26ef674244",
+      "git_blob": "a69652664ddc2dd34dd2337f8e6c86180b6696cc"
+    },
+    {
+      "path": "healing/healing_preview_eng_1.webp",
+      "bytes": 16854,
+      "sha256": "52b99635f0f46346bc7214b0c9c0cbb20db63a6728df3f94eef33f2ba66cfb70",
+      "git_blob": "7f6904e4d3bb058b030b831e9528e09080ea8fe7"
+    },
+    {
+      "path": "healing/healing_preview_eng_2.webp",
+      "bytes": 11752,
+      "sha256": "46e31fb499e5f831b28b55db3fabb818742f788334c73660c930f218996e9d57",
+      "git_blob": "635a9ec4b394b541e2a9ecd9e91a0dd057fd30d8"
+    },
+    {
+      "path": "healing/healing_preview_eng_3.webp",
+      "bytes": 14618,
+      "sha256": "c3b38a1990bd0e00b9daf6884b4158d23a1c665fadbd2497f57b7ab5d33727e6",
+      "git_blob": "55830daab844786a6f5cecf4f06932c041005c89"
+    },
+    {
+      "path": "healing/healing_preview_traditional_1.webp",
+      "bytes": 17060,
+      "sha256": "6bf8c93c9ebf2be61d5d2e79f9d7d589c559c08e4507641212c6d8ae6132e32a",
+      "git_blob": "7b06406d9c62d2f8807a335f1760d6ffded91a9b"
+    },
+    {
+      "path": "healing/healing_preview_traditional_2.webp",
+      "bytes": 12004,
+      "sha256": "e136f624cd825fb6ccd2a7b83201d08997de8a66e9a2a0c5cc230a3619950618",
+      "git_blob": "d45d11932e821f3d92c0e534cdbf82814dbf0560"
+    },
+    {
+      "path": "healing/healing_preview_traditional_3.webp",
+      "bytes": 14732,
+      "sha256": "547c31d1031400770c3fec221c5b4cd1a936697ed9d16552e65e748b3f171c58",
+      "git_blob": "e2985a1f1a762485cad7aa03962cfb9ae6b2196d"
+    },
+    {
+      "path": "healing/healing_wallpaper_1.webp",
+      "bytes": 2074308,
+      "sha256": "4f6bc0ca95e5efd95b3089d5dafc573260a04354ea45ce9f2c856757ee30f39a",
+      "git_blob": "ea88bba5f1d8d26a24090caa6c74ad51165085d5"
+    },
+    {
+      "path": "healing/healing_wallpaper_2.webp",
+      "bytes": 2221800,
+      "sha256": "6a34b533c676403d4c6d65db7401da6e766d4289913d6d53e65459da7648ab02",
+      "git_blob": "b4acb6f1e8a00160f66fc42b1dda95458469670f"
+    },
+    {
+      "path": "healing/healing_wallpaper_3.webp",
+      "bytes": 2949496,
+      "sha256": "e4213ccb6c0557f0d946824004d903d149623e2f0998029965a9d5bdaf4e1716",
+      "git_blob": "2baaf49e753eda2247df0cef13bc23947154f886"
+    },
+    {
+      "path": "healing/healing_wallpaper_ai_1.webp",
+      "bytes": 52568,
+      "sha256": "a0aa409323ddb05501d68fbb44ef6006ef428a2f730bf77c06e66aa07c16082d",
+      "git_blob": "77434bc4ff0fd807ff2d943aed63406cd1f60602"
+    },
+    {
+      "path": "healing/healing_wallpaper_ai_1_contours.txt",
+      "bytes": 28115,
+      "sha256": "ec80298643b694f53cbcd14711a24029ecbb3a8d4753caf51ef05d7a5c9f9084",
+      "git_blob": "77f0d3e86f60aa292dad2548365d0d5ce454c76d"
+    },
+    {
+      "path": "healing/healing_wallpaper_ai_2.webp",
+      "bytes": 44974,
+      "sha256": "078cc588317fa7df58cc4dd9fd863adb2f603f5fea50925204336862f7ca841d",
+      "git_blob": "d92a4e10e56a11712b0fd7738ef9fafca8240438"
+    },
+    {
+      "path": "healing/healing_wallpaper_ai_2_contours.txt",
+      "bytes": 29471,
+      "sha256": "34064ba9ebf0ec05ea269948b1260514f9bd7970efa24cd3d31747530da94bcd",
+      "git_blob": "33eceb36fd04f75aaa32d172920f1d5e112332d6"
+    },
+    {
+      "path": "healing/healing_wallpaper_ai_3.webp",
+      "bytes": 118162,
+      "sha256": "f66bbf20cc7894ab93a05a4fb0bd297867f826e49f1d68f64e8f0959f31011e9",
+      "git_blob": "e589e165e42d86d2958299545f27bb62e6228e77"
+    },
+    {
+      "path": "healing/healing_wallpaper_ai_3_contours.txt",
+      "bytes": 66311,
+      "sha256": "75b2f5115bc1ae2dc81d4c1eeffff4b8118538db49e43dfb48bfe9633a7d134c",
+      "git_blob": "004b1bb3900875f315a5b1f3a5afb9e715783b5c"
+    },
+    {
+      "path": "light_and_shadow/light_and_shadow_preview_1.webp",
+      "bytes": 11496,
+      "sha256": "a9d2300c8f93a3bbd649c8b4741fda1c1dbca2290a0559d0a7fc41bdfc13d000",
+      "git_blob": "30f72c1ed9605ea19308300816d21f922b1a93bc"
+    },
+    {
+      "path": "light_and_shadow/light_and_shadow_preview_2.webp",
+      "bytes": 10348,
+      "sha256": "49c45728940b583f6571098657bf5aba9416858d990fa273685b3feeff0446e2",
+      "git_blob": "69b79c7c9b1502f4a6c1e925fb480ea307b35a09"
+    },
+    {
+      "path": "light_and_shadow/light_and_shadow_preview_3.webp",
+      "bytes": 11610,
+      "sha256": "21a54fb8676d0c65d781037c12fbf6370e8bd43722698c42b35b498b3eb38f57",
+      "git_blob": "52d098c653457dc9c92d098f6fd04114c2ab5c24"
+    },
+    {
+      "path": "light_and_shadow/light_and_shadow_preview_4.webp",
+      "bytes": 10234,
+      "sha256": "a33983048b3fea158d2f2264c0e017dbad362448760b65d851227fe93a422777",
+      "git_blob": "4d3683d456eea209efb96f02866007e8757c1e6f"
+    },
+    {
+      "path": "light_and_shadow/light_and_shadow_preview_eng_1.webp",
+      "bytes": 11308,
+      "sha256": "019abd11b322fbfbdabc3aa125691705f9ab67a97a278454f669f9b0cc67d8dc",
+      "git_blob": "ff4f77dfcae60b76337d6eaa343b23dbbc5358e9"
+    },
+    {
+      "path": "light_and_shadow/light_and_shadow_preview_eng_2.webp",
+      "bytes": 10340,
+      "sha256": "ff8f253032eec20800e9abceafabc95f828e503500b95ee4db7c3b367866cbe1",
+      "git_blob": "9b7b0103b7a5f4d0d47dd31670dd8bc97b00ad99"
+    },
+    {
+      "path": "light_and_shadow/light_and_shadow_preview_eng_3.webp",
+      "bytes": 11462,
+      "sha256": "3d633ce8ad1ac43e210c6091855a5936daf51e15fe0da8915cef916742741b5b",
+      "git_blob": "964715a9c39e54121284df0b6f894aaeeeb2ff76"
+    },
+    {
+      "path": "light_and_shadow/light_and_shadow_preview_eng_4.webp",
+      "bytes": 9986,
+      "sha256": "87e6e9ab3c39266c9e319989824c7e5c2c798c8b32dd1785e2101d4b8e1e2c5e",
+      "git_blob": "0241268452d76070794984f2d8892c7c3abba36d"
+    },
+    {
+      "path": "light_and_shadow/light_and_shadow_preview_traditional_1.webp",
+      "bytes": 11574,
+      "sha256": "62acec26da1d05a29fc02204212449d24def43c47ccfafab1d9cb5a6697275c6",
+      "git_blob": "724a10518981490d3e4a69a2e378d063196f70d4"
+    },
+    {
+      "path": "light_and_shadow/light_and_shadow_preview_traditional_2.webp",
+      "bytes": 10406,
+      "sha256": "c09a23bd63b4b07916c77b190f13071dc587e5dc812df77c3464a431e3b132ff",
+      "git_blob": "8d229a45ba4e95d34521fcbf0f3352dafaf4ba69"
+    },
+    {
+      "path": "light_and_shadow/light_and_shadow_preview_traditional_3.webp",
+      "bytes": 11600,
+      "sha256": "f80c4124cf9cd063eebbf7e71eb6736b443788cbc28ad847c5a9da2bce029af1",
+      "git_blob": "f0d33f5338cf69ce2237bda4f7359af640bbc370"
+    },
+    {
+      "path": "light_and_shadow/light_and_shadow_preview_traditional_4.webp",
+      "bytes": 10206,
+      "sha256": "6ec70c3f94da6d2f5e30ba67c1d7d94bcf0e46480b3c0c4221deb9501bc0da71",
+      "git_blob": "7ab510f77eb629810ac627e15797492c0a86ba7f"
+    },
+    {
+      "path": "light_and_shadow/light_and_shadow_wallpaper_1.webp",
+      "bytes": 911528,
+      "sha256": "f538f10121afb76df6efb5580a773b3e71df96105819bc9593e80e7c532060ce",
+      "git_blob": "bf4e5683add02027c86fd4703e17b8bf1f02cce5"
+    },
+    {
+      "path": "light_and_shadow/light_and_shadow_wallpaper_2.webp",
+      "bytes": 1009100,
+      "sha256": "356f70589df5790d68219ee36f44818bf5bb242b620adea7fb3fba31e7f991f0",
+      "git_blob": "5991286d9c176926c81746a7a76331632c17458d"
+    },
+    {
+      "path": "light_and_shadow/light_and_shadow_wallpaper_3.webp",
+      "bytes": 1630118,
+      "sha256": "4575d1c7aef4ca17c5eab803c8caea25234b01a350fd232f0193e052d3f23b36",
+      "git_blob": "595d6a046cd38da523ed488e271fc6ffe311c3d9"
+    },
+    {
+      "path": "light_and_shadow/light_and_shadow_wallpaper_4.webp",
+      "bytes": 1462352,
+      "sha256": "1b369e297282b48a0862eba82a89117a00c1b1f0df9f66b3406a609fe359fabd",
+      "git_blob": "fba382eaf37455b63dc694eb72522cf0462a230b"
+    },
+    {
+      "path": "rhythm/rhythm_preview_1.webp",
+      "bytes": 20030,
+      "sha256": "4d01b6450241a7cb6626e486e37e7955f774a671ab3c9a2d45c8ad1e5a6b02e4",
+      "git_blob": "1eb6abd1d19d337585a4f5f57f7bf368578268a7"
+    },
+    {
+      "path": "rhythm/rhythm_preview_2.webp",
+      "bytes": 188554,
+      "sha256": "247924a90f10157dccdbed88a4a8915bc44133184f6a27522fef81dcd91a6963",
+      "git_blob": "fff5e9c027454af8f4ad1b3d0a3e652e6a0be2ce"
+    },
+    {
+      "path": "rhythm/rhythm_preview_3.webp",
+      "bytes": 326878,
+      "sha256": "44b8c7dd3d48d2777254d9bf261aeecce737e89d31aefb6cc7a09692da2c868e",
+      "git_blob": "88e4fd1f349fcfdae0c5f6b776b4cd0d8aecee90"
+    },
+    {
+      "path": "rhythm/rhythm_preview_eng_1.webp",
+      "bytes": 19714,
+      "sha256": "486a3a177143359c553d667c7fde8c768aa2c307b9276ac5e67107976d14a1e6",
+      "git_blob": "a023211d8de448ee74a053b5bf5eef73eb35fec1"
+    },
+    {
+      "path": "rhythm/rhythm_preview_eng_2.webp",
+      "bytes": 188280,
+      "sha256": "9e63c0530442596702b5c0aa555088843ada19fa6c8e96bdf68faefb32b0d53d",
+      "git_blob": "accce2fa3d5aae37ed4190f100aef52f61f49f85"
+    },
+    {
+      "path": "rhythm/rhythm_preview_eng_3.webp",
+      "bytes": 326668,
+      "sha256": "201ad347d64db6ebe21dad0e0fb73cd60dddabb5908b7181a24499d2ce4d8977",
+      "git_blob": "968a9bf895b4a2cd3e5fdc61a368b98618cc6e41"
+    },
+    {
+      "path": "rhythm/rhythm_preview_traditional_1.webp",
+      "bytes": 20046,
+      "sha256": "be3a71606b0f3ddf33cff5bc2779200c378a8a940b2c3c2631796582b9873d79",
+      "git_blob": "9c267e2e1241dccdfeed1c90e397222b75facd2d"
+    },
+    {
+      "path": "rhythm/rhythm_preview_traditional_2.webp",
+      "bytes": 188650,
+      "sha256": "c20bac79445f6bc67e2d08536101ab77e5014e4987d42cc83fde2b61f09f136c",
+      "git_blob": "defbb9fd718c0e425e16813c716d22981e69eb52"
+    },
+    {
+      "path": "rhythm/rhythm_preview_traditional_3.webp",
+      "bytes": 327286,
+      "sha256": "3136aeca2490ea7c257b4af1f1ece0eb4c23533b2fcf9a13dc7b8e675c5728c1",
+      "git_blob": "3bbbb722f1e80c0a61bce914a86ec3730f18f707"
+    },
+    {
+      "path": "rhythm/rhythm_wallpaper_1.webp",
+      "bytes": 2673620,
+      "sha256": "cace4efe60a2657c189f34c0ed544b27253efc327968743be65e25e4957c954e",
+      "git_blob": "fe8fc46c480f192066ffacbc4132e041bdbaebf8"
+    },
+    {
+      "path": "rhythm/rhythm_wallpaper_2.webp",
+      "bytes": 1301936,
+      "sha256": "b980607e11fe983f64b69bbb0fa06d490c668b73c4299fd7f61c86ed8e5ffb1e",
+      "git_blob": "a542a51b2de99bb160f87040e4a547e8ce5f11ce"
+    },
+    {
+      "path": "rhythm/rhythm_wallpaper_3.webp",
+      "bytes": 2517330,
+      "sha256": "800e791d41dd586bbe3c94f395a66b6c67b2c62128774ed6fb03c872e92eed1d",
+      "git_blob": "b6e61492cc79e27fefa65952db6f902b2c875724"
+    },
+    {
+      "path": "rhythm/rhythm_wallpaper_ai_1.webp",
+      "bytes": 26448,
+      "sha256": "d25cd08cefd0de14b145778f1fe01c6675bfb7780c1b10582a5e426575ff811a",
+      "git_blob": "1f20752f31a8ee663838f0c9cd3ca2e1efe4ce71"
+    },
+    {
+      "path": "rhythm/rhythm_wallpaper_ai_1_contours.txt",
+      "bytes": 22634,
+      "sha256": "91f88871d2ac9422e7b8ac915a9d80513f0a2b4aef26c00b474274eb81300c0f",
+      "git_blob": "c22a8a6957157a1e6e3e83843e105053dda51689"
+    },
+    {
+      "path": "rhythm/rhythm_wallpaper_ai_2.webp",
+      "bytes": 22194,
+      "sha256": "2649567c7a1a3f20ad3efeb0f652e47c20c7b577e681a65f2cd61c0534c05f96",
+      "git_blob": "ccdc4b6231fa061c39bae448959a8f07b9943538"
+    },
+    {
+      "path": "rhythm/rhythm_wallpaper_ai_2_contours.txt",
+      "bytes": 8565,
+      "sha256": "48dd6f2434f33acbcf4114c253e304dd790de64955b26a627093778f7343c21d",
+      "git_blob": "38a9d03ec8526c9bb78e3fd23a809dc30f82bcd4"
+    },
+    {
+      "path": "rhythm/rhythm_wallpaper_ai_3.webp",
+      "bytes": 1763010,
+      "sha256": "1cf3360bfbb4635ae07e2d5b894755d791365acac46b63cd7c266dfa6eccd54b",
+      "git_blob": "9d2049907249756d4fe807a9bcd063f37c4b07fc"
+    },
+    {
+      "path": "rhythm/rhythm_wallpaper_ai_3_contours.txt",
+      "bytes": 46859,
+      "sha256": "283fdbb056cc76824661bb219958a782c86fc45d0b09a58f9dbed80872350cd6",
+      "git_blob": "7712aa5550f9e38f1fceff4ca111ef1132e26ddb"
+    },
+    {
+      "path": "sleek/sleek_preview_1.webp",
+      "bytes": 10416,
+      "sha256": "bd291f884dd155091b2694ccd116c9183c6d864c851563680b9fc66f9724d71b",
+      "git_blob": "8fb0843a11fe0109f660d1e30c5c8897843852fe"
+    },
+    {
+      "path": "sleek/sleek_preview_2.webp",
+      "bytes": 9922,
+      "sha256": "30e658d922fa58ea00b9bfd2ee86bad887f2fee302a2468cbb0cbf2b3ce36bc6",
+      "git_blob": "681facd0ad0d57cf117d1ce74ab7a168cb0bd9ae"
+    },
+    {
+      "path": "sleek/sleek_preview_3.webp",
+      "bytes": 10682,
+      "sha256": "484d368963763f7cf7d05c19623c544da54e1f6c428ba9c822ffd758d200261d",
+      "git_blob": "31c4f8e0529fdec50b72a06a53bbf0a1dedcde2c"
+    },
+    {
+      "path": "sleek/sleek_preview_4.webp",
+      "bytes": 9772,
+      "sha256": "7a9c9067ff1c3e377a8ae5037d5d5c278f48184ca13f3d67c997b87e53410d63",
+      "git_blob": "74e7e15d84b5d70f50a20ddf09e0f3f0c6b91e61"
+    },
+    {
+      "path": "sleek/sleek_preview_eng_1.webp",
+      "bytes": 10180,
+      "sha256": "7beddcb1bfc1e046fca8f78ff3806f7dfc324906d720967e30d369dd0a4cda79",
+      "git_blob": "9bc3702bebe1d6ae96f07e5f0c1cb5383bc49b27"
+    },
+    {
+      "path": "sleek/sleek_preview_eng_2.webp",
+      "bytes": 9682,
+      "sha256": "c8339fb4f575cd67ac097e93af4a73ab23bfc15928bf9402d23b0979da7256bb",
+      "git_blob": "d32d5e2b63ff2a0af74d29ccb1efd590f8642d98"
+    },
+    {
+      "path": "sleek/sleek_preview_eng_3.webp",
+      "bytes": 10390,
+      "sha256": "0d9c9d4f298ebd6a5a6458237d8128b551c7a20143d4527d019dc8eee9388b9d",
+      "git_blob": "9c9724db54f18ae2b17dc7dce844f6ff0e5b5521"
+    },
+    {
+      "path": "sleek/sleek_preview_eng_4.webp",
+      "bytes": 9510,
+      "sha256": "fcf3480cd2130f28f0f54d0d4eae505b8f29cbd61df0d3cf4f0ff35fcd4120d8",
+      "git_blob": "fc2d9a2c3385611bd534461a1a92e61b2fa40172"
+    },
+    {
+      "path": "sleek/sleek_wallpaper_1.webp",
+      "bytes": 1476072,
+      "sha256": "9eb190e49aa8d76456775ea91d3613a04fe4d45110ab7bf495635d31031c35a9",
+      "git_blob": "a321fb8ca5b43a5ed2de3b74de3ece9373e35c0b"
+    },
+    {
+      "path": "sleek/sleek_wallpaper_2.webp",
+      "bytes": 911944,
+      "sha256": "0d113e0fafd75348708a301df2d4a4954fa8e99ce63829021586a8b8b94020cb",
+      "git_blob": "5779056cde94c0b195a46e0bda1b124c359b5af1"
+    },
+    {
+      "path": "sleek/sleek_wallpaper_3.webp",
+      "bytes": 1296932,
+      "sha256": "834901eeea5795040258bf8ae43945884091989fa57dbaaa76e8e6b01373d14d",
+      "git_blob": "859db84714a931600f6d07f64594ae55e77b4199"
+    },
+    {
+      "path": "sleek/sleek_wallpaper_4.webp",
+      "bytes": 996110,
+      "sha256": "5833d0983b02d89d95aa7cd87f8b180123fa8d88cc4e6fc8c2a514ad2c5fb0aa",
+      "git_blob": "af46971125668eb70a414b4b2314840da1720564"
+    }
+  ]
+}
