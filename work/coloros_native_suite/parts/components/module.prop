@@ -1,6 +1,6 @@
 id=plt120_components
-name=ColorOS 配套原厂组件（独立挂载公开测试）
-version=1.2-public-test
+name=ColorOS 配套原厂组件（独立挂载）
+version=1.2
 versionCode=12010
 author=Local packaging; APK source: CiZhanYue application extension v1.1
 description=5个原签名原厂组件，仅补本机缺失项；自带独立OverlayFS挂载，无需元模块。不锁机型/固件；已有应用不替换，效果依赖ROM接口及云端。

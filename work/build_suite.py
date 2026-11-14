@@ -11,7 +11,7 @@ for source,name in [('features','features'),('components','components'),('themes
 shutil.copy2(SRC/'patch_features.awk',DEST/'parts/features/patch_features.awk')
 f=DEST/'parts/features/customize.sh';f.write_text(f.read_text(encoding='utf8').replace('Only the requested six feature edits are applied','Only the requested feature edits are applied'),encoding='utf8',newline='\n')
 (DEST/'payload').mkdir(exist_ok=True)
-shutil.copy2(ROOT/'outputs/public-test/ColorOS_RecentsRepair_0.4.apk',DEST/'payload/native-repairs.apk')
+shutil.copy2(ROOT/'outputs/hooks/ColorOS_RecentsRepair_0.4.apk',DEST/'payload/native-repairs.apk')
 shutil.copy2(ROOT/'work/suite_research/scope-helper/classes.dex',DEST/'payload/scope-helper.dex')
 deps=[('Zygisk-Next-1.5.3-880-22a1bf5-release.zip','zygisksu','186a0a26c9fcb895af1954b42de831433c23d72d1bd0758b986069154359db67'),('LSPosed-v2.0.0-7316-Irena-release.zip','zygisk_lsposed','1f843e0b5062666ce4d8e8eecbb8510497419175b3c3fd1898f885c7cae37cd1')]
 (DEST/'dependencies').mkdir(exist_ok=True)
@@ -19,8 +19,8 @@ for name,module,digest in deps:
  p=ROOT/'work/v2_research/hook_versions'/name;assert hashlib.sha256(p.read_bytes()).hexdigest()==digest
  shutil.copy2(p,DEST/'dependencies'/name)
 write('module.prop','''id=plt120_selective_features
-name=ColorOS 原生功能整合补全（测试版）
-version=2.3-suite-test
+name=ColorOS 原生功能整合补全（正式版）
+version=2.3
 versionCode=20300
 author=Local customization; OEM APKs from user-supplied extension
 description=原厂流体云配套、小布普通模式及建议卡片容器、堆叠与桌面卡片、主题资源和堆叠修复。一包安装，无固定机型/固件限制，无元模块依赖。云端AI及订单场景仍需原厂支持。
@@ -159,27 +159,14 @@ LSPosed Irena 2.0.0 build7316: https://github.com/re-zero001/LSPosed-Irena/relea
 Framework installer ZIPs are bundled byte-for-byte and their checks remain active. Existing frameworks are preserved.
 LSPosed source and configuration schema: https://github.com/re-zero001/LSPosed-Irena
 ''')
-write('README.txt','''ColorOS native suite 2.3 test / 2026-11-10
-One ZIP installs the feature layer, five missing OEM apps, one native repair Hook, and missing pinned framework dependencies.
-No fixed model, firmware or ColorOS version restriction. APK ABI, page-size, XML structure and signature checks are retained.
-Current actual test device: OPPO PLT120, ColorOS 15.0.2.1005. ColorOS 16 is unverified; interface mismatch skips the Hook.
-Native lockscreen clock editor includes weather/lunar information, clock styles and fonts. This is not proof of an arbitrary agenda-widget picker.
-Missing OEM inspiration-template groups are appended from a pinned public firmware resource tree. Existing device groups are retained. Native editor/schema/style-asset compatibility is checked before mounting; an incompatible theme part is skipped. No APK is replaced and no theme is automatically applied. Theme-resource provenance and hashes are included under parts/themes/payload/source-manifest.json. Unrelated live-wallpaper and global animation gates are preserved.
-AI/video/order services require OEM support and user consent/account. Installed packages alone do not verify complete workflows.
-The Xiaobu suggestions container override has args=boolean:true: UMS reads its boolean value, not only its presence. The OEM card resource already exists and is not a third-party replacement.
-Both speechassist.cui.device.light.low and speechassist.cui.device.light declarations are removed. This changes the native lightweight-mode branch and isLightSystem request flag; it does not replace OEM cloud configuration or impersonate another model.
-KernelSU-family first-time framework installation may require two reboots, but the ZIP is flashed once. Existing compatible framework users need one reboot.
-The framework configuration helper changes only cn.local.plt120.recentsfix, owner-user 0, with Launcher scope, using a checked schema and an atomic SQLite transaction.
-Disable and reboot reverses XML/APK mounting and disables the suite Hook through its boot-session activation property. Uninstall removes the suite Hook APK automatically.
-The original companion from this task is disabled automatically. It is not deleted or re-enabled on uninstall. Existing frameworks are not removed automatically.
-''')
-for name in ('发布说明.md','验收记录.md'):
+shutil.copy2(ROOT/'docs/模块说明.txt',DEST/'README.txt')
+for name in ('发布说明.md',):
  shutil.copy2(ROOT/'docs'/name,DEST/name)
 manifest=[]
 for f in sorted(DEST.rglob('*')):
  if f.is_file() and f!=DEST/'payloads.sha256':manifest.append(hashlib.sha256(f.read_bytes()).hexdigest()+'  '+f.relative_to(DEST).as_posix())
 write('payloads.sha256','\n'.join(manifest)+'\n')
-artifact=OUT/'ColorOS_NativeSuite_2.3-test.zip'
+artifact=OUT/'ColorOS_NativeSuite_2.3.zip'
 with zipfile.ZipFile(artifact,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
  for f in sorted(DEST.rglob('*')):
   if f.is_file():

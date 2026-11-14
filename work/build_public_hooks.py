@@ -1,10 +1,10 @@
-"""Build public-test APKs with native-interface checks rather than model/version locks."""
+"""Build repair APKs with native-interface checks rather than model/version locks."""
 from pathlib import Path
 import hashlib,json,subprocess,zipfile,sys,os
 
 ROOT=Path(__file__).resolve().parent.parent
 TOOLS=ROOT/'work/v2_research/toolchain'
-OUT=ROOT/'outputs/public-test'
+OUT=ROOT/'outputs/hooks'
 java=next((TOOLS/'jdk').rglob('bin/java.exe'));javac=java.with_name('javac.exe')
 bt=next((TOOLS/'build-tools-35.0.0').rglob('aapt2.exe')).parent
 android=next((TOOLS/'platforms-android-35').rglob('android.jar'))

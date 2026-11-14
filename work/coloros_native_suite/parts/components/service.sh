@@ -19,4 +19,4 @@ while read -r PKG VER HASH REL EXTRA; do
 done < "$MODDIR/selected.tsv"
 [ "$FAIL" = 0 ] || exit 1
 rm -f "$MODDIR/pending_boot"
-printf '%s\n' 'Boot complete and selected packages registered; UI/cloud behavior still needs testing.' >> "$MODDIR/status.txt"
+printf '%s\n' 'Boot complete and selected packages registered; UI/cloud availability depends on OEM support.' >> "$MODDIR/status.txt"

@@ -52,7 +52,7 @@ public final class ThemeSetup {
      String s;try(InputStream in=apk.getInputStream(e)){ByteArrayOutputStream b=new ByteArrayOutputStream();byte[] buf=new byte[65536];int n;while((n=in.read(buf))!=-1)b.write(buf,0,n);s=new String(b.toByteArray(),StandardCharsets.ISO_8859_1);}
      if(s.contains("inspirationTypeName")&&s.contains("healing")&&s.contains("rhythm")&&s.contains("light_and_shadow"))compatible=true;
     }
-    require(compatible,"OEM catalogue engine does not expose the tested template schema");
+    require(compatible,"OEM catalogue engine does not expose the required template schema");
     for(int i=0;i<add.length();i++){
      JSONObject g=add.getJSONObject(i);String name=g.getString("inspirationTypeName");require(ALLOWED.contains(name),"Unreviewed template group");
      if(seen.contains(name))continue;
@@ -77,7 +77,7 @@ public final class ThemeSetup {
    copyTree(src,next);for(String group:appended)copyTree(payload.resolve("assets").resolve(group),next.resolve(group));
    Files.write(next.resolve(CATALOG),(original.toString(2)+"\n").getBytes(StandardCharsets.UTF_8));
    clean(out);Files.move(next,out);
-   System.out.println("PREPARED "+original.length()+" groups; native editor and lockscreen still require device testing");
+   System.out.println("PREPARED "+original.length()+" groups; native editor and lockscreen availability depends on device support");
   }catch(Throwable e){System.err.println("OEM_THEME_SETUP_FAILED: "+e);System.exit(2);}
  }
 }

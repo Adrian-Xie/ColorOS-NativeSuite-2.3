@@ -26,7 +26,7 @@ python work/build_scope_helper.py
 python work/build_theme_helper.py
 ```
 
-输出分别为 `outputs/public-test/ColorOS_RecentsRepair_0.4.apk`、`work/suite_research/scope-helper/classes.dex` 与 `work/suite_research/theme-helper/classes.dex`。自签名 APK 不能直接覆盖发布者不同证书的同包名 APK；先备份配置并按 Android 的签名规则处理。
+输出分别为 `outputs/hooks/ColorOS_RecentsRepair_0.4.apk`、`work/suite_research/scope-helper/classes.dex` 与 `work/suite_research/theme-helper/classes.dex`。自签名 APK 不能直接覆盖发布者不同证书的同包名 APK；先备份配置并按 Android 的签名规则处理。
 
 ## 准备原厂及框架输入
 
@@ -53,4 +53,4 @@ python work/build_theme_helper.py
 
 本次公开整理仅验证源码隐私、Python 语法、引用文件与归档完整性，没有在干净机器上完成含全部外部依赖的独立重建。未公开原签名私钥，因此不承诺字节级复现已签名 APK 或整合 ZIP。
 
-原设备测试脚本 `check_suite.py` 和 `adb_readonly.py` 未发布：前者依赖实际设备，后者含设备专用连接参数。没有发布手机序列号、账号数据、截图、日志或应用数据库。
+没有发布手机序列号、账号数据、截图、设备连接配置、日志或应用数据库。
