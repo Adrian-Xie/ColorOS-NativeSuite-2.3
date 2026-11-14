@@ -1,0 +1,16 @@
+# Build outputs and local files — do not commit
+*.apk
+*.zip
+*.p12
+*.keystore
+*.jks
+work/
+outputs/
+build-*/
+__pycache__/
+*.pyc
+build-report.json
+hook-setup.log
+hook-setup.txt
+status.txt
+prepare-log.txt
