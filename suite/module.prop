@@ -1,0 +1,6 @@
+id=plt120_selective_features
+name=ColorOS 原生功能整合补全（测试版）
+version=2.3-suite-test
+versionCode=20300
+author=Local customization; OEM APKs from user-supplied extension
+description=原厂流体云配套、小布普通模式及建议卡片容器、堆叠与桌面卡片、主题资源和堆叠修复。一包安装，无固定机型/固件限制，无元模块依赖。云端AI及订单场景仍需原厂支持。
