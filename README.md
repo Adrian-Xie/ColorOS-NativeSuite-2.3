@@ -14,7 +14,7 @@
 
 ## 适用范围与已知问题
 
-主要面向 OPPO A6k 5G（PLT120）、ColorOS 15。PLT120 / ColorOS 15.0.2.1002 存在流体云设置页面退出反馈，原因未定位。ColorOS 16 与其他机型不保证兼容。
+主要面向 OPPO A6k 5G（PLT120）、ColorOS 15。PLT120 / ColorOS 15.0.2.1002 存在流体云设置页面退出反馈，解决方法：在 APP share 里面安装“智慧建议服务”与“智慧决策服务”后 重启手机即可 。ColorOS 16 与其他机型不保证兼容。
 
 不设置固定机型、固件号或 ColorOS 版本上限。仍保留文件完整性、XML、ARM64、4KB 内存页、组件最低 SDK 与挂载条件检查。
 
@@ -53,7 +53,7 @@
 
 | 贡献者 | 工作 |
 | --- | --- |
-| [yifengxie0-ai](https://github.com/yifengxie0-ai) | 需求、设备使用反馈、项目维护与发布 |
+| [Adrian-Xie](https://github.com/Adrian-Xie) | 需求、设备使用反馈、项目维护与发布 |
 | ChatGPT（OpenAI Codex） | 辅助代码编写、排查、审阅、文档整理及打包 |
 
 以上为实际协作说明，不代表 OPPO 或 OpenAI 官方发布、审核或背书。
