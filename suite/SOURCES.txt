@@ -1,0 +1,7 @@
+OEM packages: user-supplied ColorOS application extension v1.1, original signatures unchanged.
+https://github.com/CiZhanYue/magisk-ColorOSCommonFeatureSupplements
+Standalone mount mechanism: https://github.com/backslashxx/mountify/tree/standalone-script (Unlicense, included).
+Zygisk Next 1.5.3 build880: https://github.com/Dr-TSNG/ZygiskNext/releases/tag/v1.5.3
+LSPosed Irena 2.0.0 build7316: https://github.com/re-zero001/LSPosed-Irena/releases/tag/2.0.0
+Framework installer ZIPs are bundled byte-for-byte and their checks remain active. Existing frameworks are preserved.
+LSPosed source and configuration schema: https://github.com/re-zero001/LSPosed-Irena
